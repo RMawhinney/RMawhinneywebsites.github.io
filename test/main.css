@@ -13,7 +13,7 @@ main {
 	/*flex-flow: row nowrap*/
 	justify-content: center;/*primary axis, in this case, column*/
 	align-items: center;/*cross axis, in this case, row*/
-	background-image: url("bgscot.jpg");
+	background-image: url("bgscot.JPG");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
