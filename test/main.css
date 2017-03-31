@@ -1,0 +1,58 @@
+* {
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	flex-direction: column; /*!!!*/
+	flex-wrap: nowrap;
+	/*flex-flow: row nowrap*/
+	justify-content: center;/*primary axis, in this case, column*/
+	align-items: center;/*cross axis, in this case, row*/
+	background-image: url("bgscot.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: white;
+}
+
+header {
+	width: 100vw;
+	height: 7vh;
+	background-color: rgba(30,144,255,.3);
+	color: blue;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.idx-hdr {
+	height: 75%;
+	margin: 0 25px;
+	background-color: rgba(30,144,255, 1);
+	color: white;
+	font-size: 18px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#idx-logo {
+	font-size: 32px;
+	background-color: transparent;
+}
