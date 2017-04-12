@@ -1,0 +1,75 @@
+html {
+	font-size: 12pt;
+	font-family: serif;
+	font: arial, veranda;
+}
+
+#third {
+	color: red;
+}
+
+.tff {
+	color: red;
+}
+
+a[target="_blank"] {
+	border: 2px solid black;
+}
+
+a:link {
+	color: pink;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color:gold;
+}
+
+p::first-letter {
+	font-size: 24px;
+	font: italic bold Georgia serif;
+}
+
+div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-basis: ;
+	background-color: blue;
+	width: 100vw;
+}
+
+/*6)all p tags beneath a div*/
+div p {
+	color:red;
+}
+
+/*7)all p tags immediately below a div*/
+div > p {
+	color: red;
+}
+
+/*8)all p tags that are a sibling of a div*/
+div ~ p {
+	color:red;
+}
+
+/*9) all p tags an immediate sibling following a div*/
+div + p {
+	color: red;
+}
+
+
+
+
+/*
+div ~ p:first-of-type {
+	color:red;
+}
