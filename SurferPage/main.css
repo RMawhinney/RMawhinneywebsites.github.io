@@ -1,0 +1,51 @@
+html {
+	background-color: blue;
+	font: 12pt arial;
+}
+
+h1 {
+	color: blue;
+	font-size: 24px;
+	margin-top: 8px;
+}
+
+#two {
+	color: red;
+}
+
+div {
+	width: 50vw;
+	background-color: lightgreen;
+	margin: 0 auto;
+	border: 10px solid goldenrod;
+	padding: 10px;
+}
+
+img {
+	width: 30vw;
+	border: 10px groove yellow;
+	border-radius: 50%;
+	margin: 20px auto;
+	display: block;
+	box-shadow: 0px 0px 10px goldenrod;
+}
+
+img:hover {
+	width: 100%;
+}
+
+#test {
+	font: 0px hidden;
+	width: 10vw;
+	background-color: red;
+	border-radius: -20px;
+}
+
+#test:hover {
+	width: 40vw;
+	font: 12px arial;
+	transition: all .5s ;
+	border-radius: -50%
+}
+
+/*give an item with rounded borders a padding to make the border float outside*/
