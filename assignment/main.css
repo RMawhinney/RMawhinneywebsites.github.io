@@ -1,0 +1,172 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, div, header, section, main, nav, aside, article {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+/*    justify-content: space-between;*/
+    /* formatting */
+    width: 100%;
+
+    border: 5px solid red;
+    margin: 0 auto;
+}
+
+main, aside, nav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav {
+    background-color: #151c34;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+nav a:hover {
+    background-color: blue;
+    transition: .5s;
+}
+
+#top {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #0062d2;
+/*    position: fixed;
+    top: 0;*/
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px auto;
+    width: 100%;
+    border-radius: 18px;
+/*    border: 2px solid white;*/
+
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+li {
+    width: 48%;
+    border-bottom: 1px dashed #151c34;
+    padding: 3px 0px;
+    margin: 1% 1%;
+    background-color: white;
+}
+
+aside {
+
+}
+
+aside section {
+    width: 100%;
+    align-content: flex-start;
+}
+
+.sectitle {
+    max-height: 40px;
+
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+
+    background-color: #b4d2f7;
+}
+
+.list {
+    background-color: #dfe1e5;
+    width: 100%;
+    min-height: 150px;
+}
+
+article {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+
+@media (min-width:640px)  {
+
+    h2 {
+        display: inline;
+    }
+
+    #top {
+        display: flex;
+        flex-flow: row wrap; 
+        justify-content: space-around;
+    }
+
+    main, aside, nav {
+        width: 100%;
+    }
+   
+    section {
+        width: 50%;
+        /*margin: 1% auto;*/
+    }
+
+    article {
+        padding: 8px;
+    }
+
+    aside {
+/*        position: fixed;
+        top: 20px;
+        bottom: 20px;
+        right: 20px;
+        max-width: 150px;*/
+        background-color: white;
+    }
+
+    #top nav {
+        width: 30%;
+        color: white;
+    }
+
+ /*   #short {
+        transform: rotate(-35deg);
+        transform-origin: 100px 420px 0;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+        padding: 10px ;
+        box-sizing: border-box;
+
+    }
+
+    #short a {
+        width: 50%;
+
+    }*/
+
+/*    aside .list {
+        min-height: 100%;
+    }*/
+
+}

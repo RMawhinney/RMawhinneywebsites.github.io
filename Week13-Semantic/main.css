@@ -1,0 +1,125 @@
+html {
+	padding: 0;
+	margin: 0;	
+/*	background-image: url('assets/tilebg.png');*/
+	height: 100vh;
+}
+
+* {
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box;
+/*	border: 1px solid red;*/
+	font-family: arial, sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #e68c4c;
+}
+
+header section {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5px;
+}
+
+header article {
+	width: 510px;
+	height: 90px;
+	background-size: 510px 90px;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	background-image: url('assets/CBlogo.png');
+}
+
+header section nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;	
+}
+
+#signature {
+	margin: 0 auto;
+	height: 75px;
+	width: 200px;
+	background-image: url('assets/signature.png');
+}
+
+
+main section, header section, header section nav {
+	background-color: #e68c4c;
+	width: 740px;
+}
+
+main section {
+	padding: 10px;
+	border-radius: 10px;
+		display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;	
+
+}
+
+figure {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+main nav {
+	margin: 10px;
+	height: 182px;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url('assets/navband.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+aside {
+	background-color: #680121;
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	display: flex;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	color:	#680121;
+	background-color: #e68c4c;
+	margin: 10px 0px auto;
+}
