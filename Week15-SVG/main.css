@@ -1,0 +1,16 @@
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	height: 100vh;
+}
+
+
+#Layer_0, #Layer_1, #Layer_2, #Layer_3 {
+	stroke: gold;
+	fill: silver;
+}
+
+#Layer_0:hover, #Layer_1:hover, #Layer_2:hover, #Layer_3:hover {
+	stroke: gold;
+	fill:gold;
+}
