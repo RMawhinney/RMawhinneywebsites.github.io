@@ -38,6 +38,10 @@ h1 {
     color: white;
 }
 
+h2 {
+    margin-left: 10px;
+}
+
 h4 {
     text-align: center;
 }
@@ -63,7 +67,7 @@ nav a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    background-color: #5e4c5a;
+    background-color: #5e3755;
 /*    position: fixed;
     top: 0;*/
 }
@@ -83,14 +87,15 @@ ul {
     display: flex;
     flex-flow: row wrap;
     padding-left: 0px;
+    justify-content: center;
 }
 
 li {
     width: 48%;
-    border-bottom: 1px dashed #5e4c5a;
+    border-bottom: 1px dashed #5e3755;
     padding: 3px 0px;
     padding-left: 10px;
-    margin: 1% 1%;
+    margin: 2px 1%;
     background-color: #faf7ff;
     color: #55917f;
     list-style: none;
