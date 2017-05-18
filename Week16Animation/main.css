@@ -1,0 +1,41 @@
+body, div {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: flex-end;
+}
+div {
+	width: 100vw;
+	height: 100vh;
+	background-color: pink;
+}
+
+#ball {
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	animation: bounce 1.5s infinite;
+	align-self: flex-end;
+	transition: background-color .25s;
+}
+
+#ball:hover {
+	background-color: red;
+}
+
+@keyframes bounce {
+	0% {
+		margin-bottom: 0;
+	}
+
+	50% {
+		margin-bottom: 200px;
+	}
+	65% {
+		margin-bottom: 190px;
+	}
+	100% {
+		margin-bottom: 0;
+	}
+}
